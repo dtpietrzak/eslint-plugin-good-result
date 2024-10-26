@@ -1,0 +1,52 @@
+{
+  "name": "eslint-plugin-good-result",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtpietrzak/eslint-plugin-good-result.git"
+  },
+  "keywords": [
+    "good-result"
+  ],
+  "author": "David Pietrzak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtpietrzak/eslint-plugin-good-result/issues"
+  },
+  "homepage": "https://github.com/dtpietrzak/eslint-plugin-good-result#readme",
+  "dependencies": {
+    "object.entries": "^1.1.8",
+    "object.fromentries": "^2.0.8"
+  },
+  "peerDependencies": {
+    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "publishConfig": {
+    "ignore": [
+      ".github/",
+      "!lib",
+      "docs/",
+      "test/",
+      "tests/",
+      "*.md",
+      "*.config.js",
+      ".eslint-doc-generatorrc.js",
+      ".eslintrc",
+      ".editorconfig",
+      "tsconfig.json",
+      ".markdownlint*",
+      "types"
+    ]
+  }
+}
